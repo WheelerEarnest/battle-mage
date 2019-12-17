@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.loginPanel{
+  display: flex;
+  flex-direction: column;
+  flex: auto;
+  width: min-content;
+  margin-left: 45vw;
+  margin-top: 300px;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 20px;
+  background-color:#f0ffff;
+} 
