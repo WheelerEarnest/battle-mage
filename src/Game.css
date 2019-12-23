@@ -1,0 +1,35 @@
+
+.Game {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border: 2px solid red;
+    justify-content: space-evenly;
+}
+
+.actionPanel {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 10vw;
+    height: 20vh;
+    justify-content: space-between;
+    padding: 5px;
+    margin-top: 20%;
+}
+
+.gesturePanel {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.gamePanel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 2px solid black;
+    width: 60vw;
+    height: 80vh;
+}
+

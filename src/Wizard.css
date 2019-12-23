@@ -1,0 +1,23 @@
+.avatar{
+    width: min-content;
+    padding: 2px;
+    border: 2px solid black;
+}
+.moveHistory{
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    padding: 5px;
+    /* justify-content: space-evenly; */
+    /* border: 2px solid red; */
+}
+
+.hand{
+    height: 100px;
+    width: 50px;
+    margin: 5px;
+    font-size: 20px;
+    justify-content: center;
+    overflow: scroll;
+    border: 2px solid black;
+}
